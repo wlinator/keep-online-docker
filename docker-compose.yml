@@ -1,0 +1,8 @@
+services:
+  core:
+    build: .
+    restart: always
+    environment:
+      ONLINE_TOKEN: ${TOKEN}
+      ONLINE_MODE_STATUS: ${MODE_STATUS}
+      ONLINE_CUSTOM_STATUS: ${CUSTOM_STATUS}
